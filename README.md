@@ -4,7 +4,7 @@ This project explores the maintenance, performance, and downtime data of three p
 
 > A final **dashboard** has been built in Excel to visualize the insights below _[detailed dashboard can be found in uploaded files]_.
   
-<img width="503" height="523" alt="Screenshot 2025-07-28 at 2 26 43 AM" src="https://github.com/user-attachments/assets/037abd39-d7dd-46e6-9f0b-c61349887f24" />
+<img width="505" height="522" alt="Screenshot 2025-07-28 at 2 30 23 AM" src="https://github.com/user-attachments/assets/99123483-4f5b-4db9-81ff-80c670212a12" />
 
 ## Datasets Used
 
