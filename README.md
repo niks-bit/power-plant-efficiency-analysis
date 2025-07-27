@@ -3,7 +3,7 @@
 This project explores the maintenance, performance, and downtime data of three power plants: **Tagoloan Hydro**, **Balayan Thermal**, and **Magat Hydro**. The aim is to assess cost efficiency, reliability, and operational performance using SQL queries, Excel-based summaries, and visual dashboards.
 
 > A final **dashboard** has been built in Excel to visualize the insights below.  
-> <img width="433" height="440" alt="Screenshot 2025-07-28 at 2 00 07 AM" src="https://github.com/user-attachments/assets/7de60836-7c0b-49f8-a0d4-b490214f9d6a" />
+> <img width="436" height="431" alt="Screenshot 2025-07-28 at 1 59 17 AM" src="https://github.com/user-attachments/assets/c7e8824b-2aa6-4295-8700-93461a627dbe" />
 
 ## Datasets Used
 
@@ -38,7 +38,7 @@ Calculates how much energy is "lost" every hour a plant is down. High loss = mor
   - 📈 Most frequent maintenance events (increasing monthly)  
   - ⚡️ Lowest energy per hour of downtime  
 
-> 🛠 This may signal **aging infrastructure**, **inefficient repair cycles**, or **systemic availability issues**.
+> This may signal **aging infrastructure**, **inefficient repair cycles**, or **systemic availability issues**.
 
 ## Recommendations
 
@@ -46,7 +46,7 @@ Calculates how much energy is "lost" every hour a plant is down. High loss = mor
 2. Audit **repair process duration** and delays  
 3. Evaluate **asset condition and spending efficiency**
 
-## 🔭 Future Work
+## Future Work
 
 - Expand dashboards in **Tableau or Power BI**  
 - Extend analysis to include other **quarters**  
