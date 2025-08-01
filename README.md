@@ -2,7 +2,7 @@
 
 This project explores the maintenance, performance, and downtime data of three power plants: **Tagoloan Hydro**, **Balayan Thermal**, and **Magat Hydro**. The aim is to assess cost efficiency, reliability, and operational performance using SQL queries, Excel-based summaries, and visual dashboards.
 
-> An initial **dashboard** has been built in Excel to visualize the insights below _[.xlxs file uploaded in files]_.
+> A rough **dashboard** has been built in Excel to visualize the insights below _[.xlxs file uploaded in files]_.
 
 <img width="499" height="523" alt="Screenshot 2025-07-28 at 2 31 30 AM" src="https://github.com/user-attachments/assets/e43e05dc-7f96-4711-a66b-87a8ffde1a0e" />
 
