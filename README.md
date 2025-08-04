@@ -1,4 +1,4 @@
-# Power Plant Maintenance & Performance Analysis
+# Power Plant Efficiency Analysis - Q1,2024
 
 This project investigates whether **high maintenance costs signal inefficiency** — or if they're symptoms of **deeper reliability problems** in plant operations. Using SQL, Excel analysis, and dashboard storytelling, we assess the performance of three power plants:
 
