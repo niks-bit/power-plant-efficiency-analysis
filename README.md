@@ -1,55 +1,63 @@
 # Power Plant Maintenance & Performance Analysis
 
-This project explores the maintenance, performance, and downtime data of three power plants: **Tagoloan Hydro**, **Balayan Thermal**, and **Magat Hydro**. The aim is to assess cost efficiency, reliability, and operational performance using SQL queries, Excel-based summaries, and visual dashboards.
+This project investigates whether **high maintenance costs signal inefficiency** — or if they're symptoms of **deeper reliability problems** in plant operations. Using SQL, Excel analysis, and dashboard storytelling, we assess the performance of three power plants:
 
-> A rough **dashboard** has been built in Excel to visualize the insights below _[.xlxs file uploaded in files]_.
+- **Tagoloan Hydro**  
+- **Balayan Thermal**  
+- **Magat Hydro**
 
-<img width="499" height="523" alt="Screenshot 2025-07-28 at 2 31 30 AM" src="https://github.com/user-attachments/assets/e43e05dc-7f96-4711-a66b-87a8ffde1a0e" />
+> An Excel dashboard was created to visualize the analysis and support business-level recommendations. __[See `.xlsx` file in repository]_  
+<img width="1111" height="548" alt="Screenshot 2025-08-05 at 12 29 22 AM" src="https://github.com/user-attachments/assets/414514aa-f526-441b-8d99-151ad3d63b11" />
 
 ## Datasets Used
 
-- `plants` – Static info (plant_id, plant_name, region, type)  
-- `maintenance_logs` – Dates and costs of maintenance  
-- `output_logs` – Energy output per plant per date  
-- `downtime_logs` – Downtime hours per plant per date  
+| Table | Description |
+|-------|-------------|
+| `plants` | Static info: plant_id, plant_name, region, type |
+| `maintenance_logs` | Dates and costs of maintenance events |
+| `output_logs` | Daily energy output (mWh) per plant |
+| `downtime_logs` | Downtime hours per plant per day |
 
 ## SQL Analysis Overview
 
-### Query 1: Total Maintenance Spend per Plant  
+### Query 1: Total Maintenance Spend per Plant (USD)
 Shows which plants had the highest maintenance spending — a baseline for cross-metric comparison.
 
-### Query 2: Energy Output per $1 of Maintenance  
+### Query 2: Energy Output per $1 of Maintenance (mWh) 
 Evaluates **cost efficiency**: how much mWh a plant generates for every dollar spent.
 
-### Query 3: Total Downtime Hours per Plant  
+### Query 3: Total Downtime Hours per Plant (hrs) 
 Measures how often a plant is offline. A key contributor to low output.
 
-### Query 4: Monthly Maintenance Frequency Trend  
+### Query 4: Maintenance Frequency Trend  
 Tracks the number of maintenance activities over time — especially for chronic issues.
 
-### Query 5: Energy Lost per Hour of Downtime  
+### Query 5: Energy Lost per Hour of Downtime (mWh) 
 Calculates how much energy is "lost" every hour a plant is down. High loss = more costly downtime.
 
 ## Key Insights Summary
 
-- **Tagoloan Hydro**:
-  - 🚨 Highest maintenance spend (USD)
-  - ⚠️ Lowest energy output (mWh) per maintenance dollar  
-  - 🕒 Highest total downtime hours  
-  - 📈 Most frequent maintenance events (Q1)  
-  - ⚡️ Lowest energy output (mWh) per hour of downtime  
+| Metric | Tagoloan Rank | Interpretation |
+|--------|---------------|----------------|
+| Maintenance Cost | Highest | Expensive to maintain |
+| Output per \$1 Spent | Lowest | Poor cost-efficiency |
+| Total Downtime | Highest | Low availability |
+| Maintenance Frequency | Rising | Likely recurring issues |
+| Output per Downtime Hr | Lowest | Low yield even when online |
 
-> This may signal **aging infrastructure**, **inefficient repair cycles**, or **systemic availability issues**.
+> **Conclusion:** Tagoloan’s high spend is likely **reactive maintenance** tied to reliability issues — not wasteful overspending. The real problem is **low availability** and **poor performance per dollar/hour**.
 
 ## Recommendations
 
-1. Investigate **root causes** of Tagoloan's frequent downtime  
-2. Audit **repair process duration** and delays  
-3. Evaluate **asset condition and spending efficiency**
+1. **Root Cause Analysis** on frequent outages and breakdowns  
+2. **Improve Repair Turnaround** — audit Mean Time to Repair (MTTR)  
+3. **Review CapEx Needs** — assess asset age and modernize if needed  
+4. **Refine Maintenance Strategy** — shift from reactive to preventive/predictive
 
 ## Future Work
 
-- Expand dashboards in **Tableau or Power BI**  
-- Extend analysis to include other **quarters**  
+- Extend analysis to **Q2 and beyond**  
+- Incorporate **severity and type** of maintenance events  
+- Explore automation or integration with **Looker Studio** or other BI tools 
 - Break down **maintenance type** and severity  
 
