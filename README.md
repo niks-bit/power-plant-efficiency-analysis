@@ -1,4 +1,4 @@
-# Power Plant Efficiency Analysis - Q1,2024
+# Mock Power Plant Efficiency Analysis - Q1,2024
 
 This project investigates whether **high maintenance costs signal inefficiency** — or if they're symptoms of **deeper reliability problems** in plant operations. Using SQL, Excel analysis, and dashboard storytelling, we assess the performance of three power plants:
 
@@ -9,7 +9,7 @@ This project investigates whether **high maintenance costs signal inefficiency**
 > An Excel dashboard was created to visualize the analysis and support business-level recommendations [see `.xlsx` file in repository].
 <img width="1111" height="548" alt="Screenshot 2025-08-05 at 12 29 22 AM" src="https://github.com/user-attachments/assets/414514aa-f526-441b-8d99-151ad3d63b11" />
 
-## Datasets Used
+## Mock Datasets Used
 
 | Table | Description |
 |-------|-------------|
