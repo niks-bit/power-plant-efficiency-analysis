@@ -6,7 +6,7 @@ This project investigates whether **high maintenance costs signal inefficiency**
 - **Balayan Thermal**  
 - **Magat Hydro**
 
-> An Excel dashboard was created to visualize the analysis and support business-level recommendations. __[See `.xlsx` file in repository]_  
+> An Excel dashboard was created to visualize the analysis and support business-level recommendations [see `.xlsx` file in repository].
 <img width="1111" height="548" alt="Screenshot 2025-08-05 at 12 29 22 AM" src="https://github.com/user-attachments/assets/414514aa-f526-441b-8d99-151ad3d63b11" />
 
 ## Datasets Used
@@ -40,7 +40,7 @@ Calculates how much energy is "lost" every hour a plant is down. High loss = mor
 | Metric | Tagoloan Rank | Interpretation |
 |--------|---------------|----------------|
 | Maintenance Cost | Highest | Expensive to maintain |
-| Output per \$1 Spent | Lowest | Poor cost-efficiency |
+| Output per $1 Spent | Lowest | Poor cost-efficiency |
 | Total Downtime | Highest | Low availability |
 | Maintenance Frequency | Rising | Likely recurring issues |
 | Output per Downtime Hr | Lowest | Low yield even when online |
